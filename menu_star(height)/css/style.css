@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  /* make it look decent enough */
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: var(--dark);
+  border-radius: 5px;
+  min-height: 25vh;
+  color: white;
+  max-height: 50px;
+}
+
+.container_principal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 35px 0px 35px;
+}
+
+.buttons {
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  bottom: 3rem;
+  width: 120px;
+  left: 29rem;
+}
+
+#show {
+  display: flex;
+  padding: 1px;
+  background: none;
+  border: none;
+
+}
+
+#hide {
+  display: flex;
+  padding: 1px;
+  background: none;
+  border: none;
+}
+
+/* #menuToggle a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+} */
+
+#menu {
+  position: absolute;
+  display: flex;
+  bottom: 3rem;
+  width: 120px;
+  left: 29rem;
+  background: #EDEDF0;
+  list-style-type: none;
+}
+
+/* #menu li {
+  padding: 10px 0;
+  font-size: 22px;
+} */
+
+#box_container{
+  position: absolute;
+  display: flexbox;
+  align-items: center;
+  width: 200px;
+  height: 90px;
+  background-color: rebeccapurple;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+}

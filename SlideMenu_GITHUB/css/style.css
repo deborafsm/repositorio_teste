@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: var(--dark);
+  border-radius: 5px;
+  min-height: 25vh;
+  color: white;
+  max-height: 50px;
+}
+
+.container_principal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 35px 0px 35px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0;
+  width: 120px;
+}
+#show {
+  display: flex;
+  padding: 1px;
+  background: none;
+  border: none;
+
+}
+#hide {
+  display: flex;
+  padding: 1px;
+  background: none;
+  border: none;
+}
+
+#menuToggle {
+  width: 90%;
+  justify-self: flex-end;
+  
+  
+ background-color: rgb(10, 140, 163);
+}
+
+#menuToggle a {
+  display: flex;
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+#menu {
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #EDEDF0;
+  list-style-type: none;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+} 
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+}

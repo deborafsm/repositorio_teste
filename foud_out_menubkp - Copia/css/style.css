@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  /* make it look decent enough */
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: var(--dark);
+  border-radius: 5px;
+  min-height: 25vh;
+  color: white;
+  max-height: 50px;
+}
+
+.container_principal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 35px 0px 35px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0;
+  width: 120px;
+}
+#show {
+  display: flex;
+  padding: 1px;
+  background: none;
+  border: none;
+
+}
+#hide {
+  display: flex;
+  padding: 1px;
+  background: none;
+  border: none;
+}
+
+#menuToggle {
+
+  display: flex;
+  position: absolute;
+  /* top: 367px;
+  left: 799px; */
+  z-index: 1;
+ background-color: rebeccapurple;
+  /* user-select: none; */
+  /* margin: 0px; */
+}
+
+#menuToggle a {
+  display: flex;
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+#menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* display: flex; */
+  /* width: 107px;
+  padding: 36px; */
+  background: #EDEDF0;
+  list-style-type: none;
+  /* -webkit-font-smoothing: antialiased; */
+  /* transform-origin: 0% 0%; */
+  /* transform: translate(-100%, 0); */
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+} 
+
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+}

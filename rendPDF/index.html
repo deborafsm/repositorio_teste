@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container_principal">
+        <div class="header">
+            PDF
+        </div>
+        <div class="squarred" id="example1">
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+    <!-- <script>PDFObject.embed("pdf/Planta_Provisoria.pdf", "#example1" );</script> -->
+    <!-- <script>PDFObject.embed("pdf/sample-3pp.pdf");</script> -->
+    <!-- <script>
+        var options = {
+            width: "80rem",
+            height: "60rem"
+        };
+        PDFObject.embed("pdf/teste.pdf", "#example1", options);
+    </script> -->
+    <script>
+        var options = {
+            width:"78rem",
+            height: "50rem",
+            page: '2',
+            border: "1rem solid rgba(0, 0, 0, .1)",
+            
+            pdfOpenParams: {
+                view: 'FitV',
+                pagemode: 'thumbs',
+                search: 'lorem ipsum',
+                toolbar:0,
+                scrollbar:0,
+                navpanes:0,
+                statusbar:0,
+
+            }
+        };
+
+        PDFObject.embed("pdf/Planta_Provisoria.pdf", "#example1", options);
+    </script>
+</body>
+
+</html>
