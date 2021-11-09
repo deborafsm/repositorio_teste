@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>show demo</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div class="tg" data-id="${$index}">
+
+        Tabela 1
+
+        <tr>
+            <td class="tg-yw4l"><span for="active">Comforme: </span></td>
+            <td><input type="checkbox" value="1" data-bind="checkedValue:Comformity, checked: Comformity" /></td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l"><span for="active">Oportunidade de Melhoria: </span></td>
+            <td><input type="checkbox" value="1" data-bind="checkedValue:OM, checked:OM" id="OM" /></td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l"><span>Não Conformidade: </span></td>
+            <td class="tg-yw4l">
+                <span>
+                    <select data-bind="value: NonComformityType" id="NonComformityType">
+                        <option value="0" selected>Escolher</option>
+                        <option value="2">Maior</option>
+                        <option value="1">Menor</option>
+                    </select>
+                </span>
+            </td>
+        </tr>
+
+    </div>
+
+    <br><br>
+
+    <div class="tg" data-id="${$index}">
+
+        Tabela 2
+
+        <tr>
+            <td class="tg-yw4l"><span for="active">Comforme: </span></td>
+            <td><input type="checkbox" value="1" data-bind="checkedValue:Comformity, checked: Comformity" /></td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l"><span for="active">Oportunidade de Melhoria: </span></td>
+            <td><input type="checkbox" value="1" data-bind="checkedValue:OM, checked:OM" id="OM" /></td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l"><span>Não Conformidade: </span></td>
+            <td class="tg-yw4l">
+                <span>
+                    <select data-bind="value: NonComformityType" id="NonComformityType">
+                        <option value="0" selected>Escolher</option>
+                        <option value="2">Maior</option>
+                        <option value="1">Menor</option>
+                    </select>
+                </span>
+            </td>
+        </tr>
+
+    </div>
+
+    <br><br>
+
+    <div class="tg" data-id="${$index}">
+
+        Tabela 3
+
+        <tr>
+            <td class="tg-yw4l"><span for="active">Comforme: </span></td>
+            <td><input type="checkbox" value="1" data-bind="checkedValue:Comformity, checked: Comformity" /></td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l"><span for="active">Oportunidade de Melhoria: </span></td>
+            <td><input type="checkbox" value="1" data-bind="checkedValue:OM, checked:OM" id="OM" /></td>
+        </tr>
+        <tr>
+            <td class="tg-yw4l"><span>Não Conformidade: </span></td>
+            <td class="tg-yw4l">
+                <span>
+                    <select data-bind="value: NonComformityType" id="NonComformityType">
+                        <option value="0" selected>Escolher</option>
+                        <option value="2">Maior</option>
+                        <option value="1">Menor</option>
+                    </select>
+                </span>
+            </td>
+        </tr>
+
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
