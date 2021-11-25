@@ -85,8 +85,12 @@ div {
     justify-content: center;
 }
 
-#hidr {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.error {
+    border: 2px solid #f00;
 }
+
+.valid {
+    border: 2px solid #0ff;
+}
+

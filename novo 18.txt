@@ -1,0 +1,10 @@
+let el = document.getElementById('paragrafo');
+
+// alterando uma propriedade
+el.style.color = 'red';
+
+// varias propriedades
+el.style.cssText =
+
+
+UPDATE `hc`.`solicitacao` SET `n_ficha` = '0000/0010' WHERE (`id` = '52');

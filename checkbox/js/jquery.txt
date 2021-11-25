@@ -1,0 +1,49 @@
+var hc1 = document.querySelector('input[name=hc_name]');
+            var incor1 = document.querySelector('input[name=incor_name]')
+            var list = document.querySelectorAll('input[type=checkbox]')
+            // 
+            $('input[name=hc_name]').on('click', function () {
+                var hc = $('input[name=hc_name]:checked').length;
+                if (hc === 1) {
+                    $('input[name=incor_name]').attr("disabled", true);
+                } else {
+                    $('input[name=incor_name]').attr("disabled", false);
+                }
+            });
+            $('input[name=incor_name]').on('click', function () {
+                var incor = $('input[name=incor_name]:checked').length;
+                if (incor === 1) {
+                    $('input[name=hc_name]').attr("disabled", true);
+                } else {
+                    $('input[name=hc_name]').attr("disabled", false);
+                }
+            })
+            // for (var hc1 of list) {
+            //     if (hc1.checked = true) {
+            //         incor1.disabled = true;
+            //     } else {
+            //         incor1.disabled = false;
+            //     }
+            // }
+            // for (var incor1 of list) {
+            //     if (incor1.checked = true) {
+            //         hc1.disabled = true;
+            //     } else {
+            //         incor.disabled = false;
+            //     }
+            // }
+
+
+
+
+var e = document.getElementsByTagName("select");
+    for (var i = 0; i < e.length; i++) {
+        // alert(e.item(i).innerHTML);
+        if (e.item(i) == "Escolha") {}
+        (e.item(i).style.border = "1px solid red");
+        // } else if (e.item(i) != "Escolha") {
+        //     (e.item(i).style.border = "1px solid blue");
+        // }
+
+
+    }
